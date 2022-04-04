@@ -1,0 +1,15 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Favoriler butonuna tıklanır.
+*Id "com.ozdilek.ozdilekteyim:id/imgAddFav" li elementi bul ve tıkla
+*"5" saniye kadar bekle
+# Giriş yapma sayfasının açıldığı doğrulanır.
+*Id "com.ozdilek.ozdilekteyim:id/action_bar_root" Sayfa Kontrolu
+# Kullanıcı adı alanına “text” bilgisi girilir.
+*"com.ozdilek.ozdilekteyim:id/etEposta" Kayıtlı kullanıcı bilgilerini "mucahit.selcuk@testinium.com" gir
+# Password alanına şifre yazılır.
+*"com.ozdilek.ozdilekteyim:id/etPassword" Kayıtlı Sifre "hesap123" Giriliyor
+# Giriş Yap Butonuna Tıklanır
+*"4" saniye kadar bekle
+*Id "com.ozdilek.ozdilekteyim:id/btnLogin" li elementi bul ve tıkla

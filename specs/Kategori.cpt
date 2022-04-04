@@ -1,0 +1,22 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Alışverişe başla butonuna tıklanır
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+# Alışveriş sayfasının açıldıgı doğrulanır
+*Id "com.ozdilek.ozdilekteyim:id/action_bar_root" Sayfa Kontrolu
+*"4" saniye kadar bekle
+# Kategoriler Sayfası Açılır
+*Id "com.ozdilek.ozdilekteyim:id/nav_categories" li elementi bul ve tıkla
+# Kategoriler Sayfasının açıldıgı dogrulanır
+*"4" saniye kadar bekle
+*Id "com.ozdilek.ozdilekteyim:id/action_bar_root" Sayfa Kontrolu
+# Menüden “Kadın” Seçeneğine tıklanır
+*Xpath "//*[@text='Kadın']" li elementi bul ve tıkla
+#“Pantolon” kategorisi açılır.
+*"5" saniye kadar bekle
+*Xpath "//*[@text='Pantolon']" li elementi bul ve tıkla
+# Sayfanın en aşağı kısmına doğru iki kere scrol edilir.
+*"5" saniye kadar bekle
+*Sayfayı aşağı doğru kaydır
+*Sayfayı aşağı doğru kaydır
